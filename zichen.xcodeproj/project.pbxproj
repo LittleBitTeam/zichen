@@ -599,6 +599,7 @@
 		74100FD51FF08B7C0075469F /* zichen */ = {
 			isa = PBXGroup;
 			children = (
+				741012FE1FF0D0370075469F /* Api */,
 				741010D81FF0937F0075469F /* PublicClass */,
 				741010D71FF093630075469F /* AppDelegate */,
 				741012751FF0A6110075469F /* Guide(引导页) */,
@@ -649,8 +650,6 @@
 		7410100D1FF091980075469F /* LBServeConfig */ = {
 			isa = PBXGroup;
 			children = (
-				741010101FF091980075469F /* LBConst.h */,
-				7410100E1FF091980075469F /* LBConst.m */,
 				741010111FF091980075469F /* LBServeConfig.h */,
 				7410100F1FF091980075469F /* LBServeConfig.m */,
 			);
@@ -1483,6 +1482,15 @@
 				741012E61FF0C9010075469F /* Contents.json */,
 			);
 			path = home_highlight.imageset;
+			sourceTree = "<group>";
+		};
+		741012FE1FF0D0370075469F /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				741010101FF091980075469F /* LBConst.h */,
+				7410100E1FF091980075469F /* LBConst.m */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 		A2A8BBAF01AEBDB4005F26EA /* Pods */ = {
