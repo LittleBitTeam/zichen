@@ -615,7 +615,7 @@
 				74100FE41FF08B7C0075469F /* Info.plist */,
 				74100FE51FF08B7C0075469F /* main.m */,
 				741012C31FF0C6440075469F /* Resource(资源) */,
-				741010D91FF094800075469F /* Vendor */,
+				741010D91FF094800075469F /* Vendor(第三方) */,
 			);
 			path = zichen;
 			sourceTree = "<group>";
@@ -660,11 +660,11 @@
 			isa = PBXGroup;
 			children = (
 				741010131FF091980075469F /* LBNetWorkHelper.h */,
-				741010141FF091980075469F /* LBNetWorkCache.m */,
-				741010151FF091980075469F /* LBHTTPRequest.m */,
 				741010161FF091980075469F /* LBNetWorkHelper.m */,
 				741010171FF091980075469F /* LBNetWorkCache.h */,
+				741010141FF091980075469F /* LBNetWorkCache.m */,
 				741010181FF091980075469F /* LBHTTPRequest.h */,
+				741010151FF091980075469F /* LBHTTPRequest.m */,
 			);
 			path = LBNetWork;
 			sourceTree = "<group>";
@@ -913,7 +913,7 @@
 			path = PublicClass;
 			sourceTree = "<group>";
 		};
-		741010D91FF094800075469F /* Vendor */ = {
+		741010D91FF094800075469F /* Vendor(第三方) */ = {
 			isa = PBXGroup;
 			children = (
 				7410102F1FF091E40075469F /* AliPay */,
@@ -929,7 +929,7 @@
 				741011CA1FF094800075469F /* ASBirthSelectSheet */,
 				741012891FF0A9730075469F /* CYLTabBarController */,
 			);
-			path = Vendor;
+			path = "Vendor(第三方)";
 			sourceTree = "<group>";
 		};
 		741010FD1FF094800075469F /* MJExtension */ = {
