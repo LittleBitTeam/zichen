@@ -1987,7 +1987,7 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/zichen/Vender/AliPay/AliPay",
+					"$(PROJECT_DIR)/zichen/Vendor/AliPay/AliPay",
 					"$(PROJECT_DIR)/zichen/Vendor/AliPay/AliPay",
 				);
 				GCC_PREFIX_HEADER = $SRCROOT/zichen/PublicClass/Header/ZiChen_PrefixHeader.pch;
@@ -2025,7 +2025,7 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/zichen/Vender/AliPay/AliPay",
+					"$(PROJECT_DIR)/zichen/Vendor/AliPay/AliPay",
 					"$(PROJECT_DIR)/zichen/Vendor/AliPay/AliPay",
 				);
 				GCC_PREFIX_HEADER = $SRCROOT/zichen/PublicClass/Header/ZiChen_PrefixHeader.pch;
