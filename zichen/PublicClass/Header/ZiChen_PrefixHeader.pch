@@ -1,0 +1,50 @@
+//
+//  ZiChen_PrefixHeader.pch
+//  zichen
+//
+//  Created by 郑超华 on 2017/12/25.
+//  Copyright © 2017年 郑超华. All rights reserved.
+//
+
+#ifndef ZiChen_PrefixHeader_pch
+#define ZiChen_PrefixHeader_pch
+#ifdef __OBJC__
+
+#import "Macro.h"
+//服务器配置
+#import "LBConst.h"
+#import "LBServeConfig.h"
+//键盘
+#import "IQKeyboardManager.h"
+//微信
+#import "WXApi.h"
+//弹窗
+#import "DMCAlertCenter.h"
+#import "MBProgressHUD+LB.h"
+//网路请求
+#import "AFNetworking.h"
+#import "UIKit+AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "LBNetWorkHelper.h"
+#import "LBHTTPRequest.h"
+//手势返回
+#import "UINavigationController+FDFullscreenPopGesture.h"
+//微信
+#import "MXWechatConfig.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif
+#endif /* ZiChen_PrefixHeader_pch */

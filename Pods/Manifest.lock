@@ -14,22 +14,24 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - BaiduMapKit (3.4.2)
   - IQKeyboardManager (3.2.4)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking
-  - BaiduMapKit
   - IQKeyboardManager (~> 3.2.4)
+  - SDWebImage
   - YYCache (~> 1.0.4)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  BaiduMapKit: f61b19ecf07a3f2deede72b221b366bf698739ed
   IQKeyboardManager: 555b1231fefafb21b19278d7cca72986a27b748b
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 4ce74e5ed97c3cd8ffb8a28460cd12caf44d24ad
+PODFILE CHECKSUM: c9376408937a2241ae1b7aea10b2684c2a51bff1
 
 COCOAPODS: 1.3.1
