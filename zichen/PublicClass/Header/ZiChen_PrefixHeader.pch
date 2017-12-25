@@ -10,6 +10,7 @@
 #define ZiChen_PrefixHeader_pch
 #ifdef __OBJC__
 
+#import <UIKit/UIKit.h>
 #import "Macro.h"
 //服务器配置
 #import "LBConst.h"
@@ -31,8 +32,17 @@
 #import "UINavigationController+FDFullscreenPopGesture.h"
 //微信
 #import "MXWechatConfig.h"
-
-
+//tabbar
+#import "CYLTabBarController.h"
+#import "TabBarConfig.h"
+//首页控制器
+#import "HomeViewController.h"
+//购物车控制器
+#import "ShopViewController.h"
+//账户控制器
+#import "AccountViewController.h"
+//我的控制器
+#import "MineViewController.h"
 
 
 

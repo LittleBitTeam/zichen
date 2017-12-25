@@ -1,22 +1,22 @@
 //
-//  HomeViewController.m
+//  MineViewController.m
 //  zichen
 //
 //  Created by 郑超华 on 2017/12/25.
 //  Copyright © 2017年 郑超华. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "MineViewController.h"
 
-@interface HomeViewController ()
+@interface MineViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation MineViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor greenColor];
     // Do any additional setup after loading the view.
 }
 

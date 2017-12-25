@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  AccountViewController.h
 //  zichen
 //
 //  Created by 郑超华 on 2017/12/25.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UITabBarController
+@interface AccountViewController : UITabBarController
 
 @end
