@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		44AB6E6D847E5C9D3778885E /* libPods-zichen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC8020DAA7C269232529561 /* libPods-zichen.a */; };
 		74100FD81FF08B7C0075469F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74100FD71FF08B7C0075469F /* AppDelegate.m */; };
-		74100FDB1FF08B7C0075469F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74100FDA1FF08B7C0075469F /* ViewController.m */; };
 		74100FDE1FF08B7C0075469F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74100FDC1FF08B7C0075469F /* Main.storyboard */; };
 		74100FE01FF08B7C0075469F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74100FDF1FF08B7C0075469F /* Assets.xcassets */; };
 		74100FE31FF08B7C0075469F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74100FE11FF08B7C0075469F /* LaunchScreen.storyboard */; };
@@ -116,6 +115,10 @@
 		741012721FF0A27F0075469F /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 741010B51FF091E50075469F /* libWeChatSDK.a */; };
 		741012731FF0A2BE0075469F /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7410104A1FF091E40075469F /* libssl.a */; };
 		741012741FF0A2C50075469F /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 741010331FF091E40075469F /* libcrypto.a */; };
+		741012781FF0A62B0075469F /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741012761FF0A62B0075469F /* GuideViewController.m */; };
+		7410127F1FF0A6EB0075469F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410127E1FF0A6EB0075469F /* HomeViewController.m */; };
+		741012811FF0A7580075469F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741012801FF0A7580075469F /* Home.storyboard */; };
+		741012881FF0A7F10075469F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741012871FF0A7F10075469F /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,8 +144,6 @@
 		74100FD31FF08B7C0075469F /* zichen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zichen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74100FD61FF08B7C0075469F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74100FD71FF08B7C0075469F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74100FD91FF08B7C0075469F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74100FDA1FF08B7C0075469F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		74100FDD1FF08B7C0075469F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74100FDF1FF08B7C0075469F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74100FE21FF08B7C0075469F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -415,6 +416,13 @@
 		7410126B1FF09A2F0075469F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7410126E1FF09E4C0075469F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		7410126F1FF09E4C0075469F /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		741012761FF0A62B0075469F /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		741012771FF0A62B0075469F /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		7410127D1FF0A6EB0075469F /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7410127E1FF0A6EB0075469F /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		741012801FF0A7580075469F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		741012861FF0A7F10075469F /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		741012871FF0A7F10075469F /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		E56737014E645073F0DA1799 /* Pods-zichen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zichen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zichen/Pods-zichen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -507,8 +515,9 @@
 			children = (
 				741010D81FF0937F0075469F /* PublicClass */,
 				741010D71FF093630075469F /* AppDelegate */,
-				74100FD91FF08B7C0075469F /* ViewController.h */,
-				74100FDA1FF08B7C0075469F /* ViewController.m */,
+				741012751FF0A6110075469F /* Guide(引导页) */,
+				741012821FF0A7C80075469F /* Login(登陆页) */,
+				741012791FF0A6B50075469F /* Home(首页) */,
 				74100FDC1FF08B7C0075469F /* Main.storyboard */,
 				74100FDF1FF08B7C0075469F /* Assets.xcassets */,
 				74100FE11FF08B7C0075469F /* LaunchScreen.storyboard */,
@@ -1049,6 +1058,82 @@
 			path = GCDAsynSocket;
 			sourceTree = "<group>";
 		};
+		741012751FF0A6110075469F /* Guide(引导页) */ = {
+			isa = PBXGroup;
+			children = (
+				741012771FF0A62B0075469F /* GuideViewController.h */,
+				741012761FF0A62B0075469F /* GuideViewController.m */,
+			);
+			path = "Guide(引导页)";
+			sourceTree = "<group>";
+		};
+		741012791FF0A6B50075469F /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				741012801FF0A7580075469F /* Home.storyboard */,
+				7410127A1FF0A6BF0075469F /* controller */,
+				7410127B1FF0A6C70075469F /* view */,
+				7410127C1FF0A6CD0075469F /* model */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		7410127A1FF0A6BF0075469F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7410127D1FF0A6EB0075469F /* HomeViewController.h */,
+				7410127E1FF0A6EB0075469F /* HomeViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		7410127B1FF0A6C70075469F /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7410127C1FF0A6CD0075469F /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		741012821FF0A7C80075469F /* Login(登陆页) */ = {
+			isa = PBXGroup;
+			children = (
+				741012851FF0A7E50075469F /* controller */,
+				741012841FF0A7E00075469F /* view */,
+				741012831FF0A7D90075469F /* model */,
+			);
+			path = "Login(登陆页)";
+			sourceTree = "<group>";
+		};
+		741012831FF0A7D90075469F /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		741012841FF0A7E00075469F /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		741012851FF0A7E50075469F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				741012861FF0A7F10075469F /* LoginViewController.h */,
+				741012871FF0A7F10075469F /* LoginViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		A2A8BBAF01AEBDB4005F26EA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1173,6 +1258,7 @@
 				741010C61FF091E50075469F /* EAA4E587-3786-4386-8391-0541DCFCFFB3.png in Resources */,
 				741012061FF094800075469F /* MJRefresh.bundle in Resources */,
 				74100FE01FF08B7C0075469F /* Assets.xcassets in Resources */,
+				741012811FF0A7580075469F /* Home.storyboard in Resources */,
 				7410124C1FF099410075469F /* MBProgressHUD.bundle in Resources */,
 				741012131FF094800075469F /* LICENSE in Resources */,
 				7410121E1FF094800075469F /* README.md in Resources */,
@@ -1261,8 +1347,8 @@
 			files = (
 				741012081FF094800075469F /* UIScrollView+MJExtension.m in Sources */,
 				741012111FF094800075469F /* RECommonFunctions.m in Sources */,
+				741012881FF0A7F10075469F /* LoginViewController.m in Sources */,
 				741010CB1FF091E50075469F /* BCBaseObject.m in Sources */,
-				74100FDB1FF08B7C0075469F /* ViewController.m in Sources */,
 				7410101B1FF091980075469F /* LBNetWorkCache.m in Sources */,
 				741012411FF094800075469F /* TADotView.m in Sources */,
 				7410120B1FF094800075469F /* UIViewController+RESideMenu.m in Sources */,
@@ -1316,6 +1402,7 @@
 				741012071FF094800075469F /* MJRefreshBaseView.m in Sources */,
 				741010C21FF091E50075469F /* DataSigner.m in Sources */,
 				741012171FF094800075469F /* MASConstraintMaker.m in Sources */,
+				741012781FF0A62B0075469F /* GuideViewController.m in Sources */,
 				7410120F1FF094800075469F /* REMenuContainerView.m in Sources */,
 				741012051FF094800075469F /* MJRefreshHeaderView.m in Sources */,
 				741010CA1FF091E50075469F /* AlipayTool.m in Sources */,
@@ -1335,6 +1422,7 @@
 				741010BA1FF091E50075469F /* MD5+NSString.m in Sources */,
 				741012431FF094800075469F /* TAAnimatedDotView.m in Sources */,
 				74100FD81FF08B7C0075469F /* AppDelegate.m in Sources */,
+				7410127F1FF0A6EB0075469F /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

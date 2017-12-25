@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "GuideViewController.h"
+#import "HomeViewController.h"
+#import "LoginViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -22,7 +24,41 @@
 #pragma mark - 测试环境:00,   生产环境:01
     [LBServeConfig setLBConfigEnv:@"01"];
     [self configurationIQKeyboard];
+    [self setBarStyle];
+    [self setupIntroductoryPage];
     return YES;
+}
+#pragma mark - 引导页
+-(void)setupIntroductoryPage {
+    //获取当前版本号
+    NSDictionary *infoDic = [[NSBundle mainBundle] infoDictionary];
+    NSString *currentAppVersion = infoDic[@"CFBundleShortVersionString"];
+    //获取上次启动应用保存的appVersion
+    NSString *version = kUserDefaultObjectForKey(@"kAppVersion");
+    //版本升级或首次登录
+    if (version == nil || ![version isEqualToString:currentAppVersion]) {
+        kUserDefaultSetObjectForKey(currentAppVersion, @"kAppVersion");
+        GuideViewController *guideVC = [GuideViewController new];
+        LBWeakSelf(self)
+        guideVC.guideBtnBlock = ^() {
+            [weakself loginIn];
+        };
+        self.window.rootViewController = guideVC;
+    }else{
+        [self loginIn];
+    }
+    self.window.backgroundColor = UIColor.whiteColor;
+    [self.window makeKeyAndVisible];
+}
+#pragma mark - 登录
+- (void)loginIn {
+        if (![LBHTTPRequest isLogin]) {//未登录  --> 登录界面
+            LoginViewController *LoginVC = [[LoginViewController alloc] init];
+            [self.window setRootViewController:LoginVC];
+        }else{ //进入首页
+            
+//            self.window.rootViewController = ;
+        }
 }
 #pragma mark - 配置IQKeyboardManager
 - (void)configurationIQKeyboard {
@@ -32,7 +68,14 @@
     manager.shouldToolbarUsesTextFieldTintColor = YES;
     manager.enableAutoToolbar = NO;
 }
-
+#pragma mark - 统一设置navigationBar的样式
+- (void)setBarStyle {
+    [[UINavigationBar appearance] setBarTintColor:kBGCOLOR ];
+    [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor],NSFontAttributeName : [UIFont boldSystemFontOfSize:19]};
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setTranslucent:NO];
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
