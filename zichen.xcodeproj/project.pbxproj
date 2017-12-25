@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44AB6E6D847E5C9D3778885E /* libPods-zichen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC8020DAA7C269232529561 /* libPods-zichen.a */; };
 		74100FD81FF08B7C0075469F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74100FD71FF08B7C0075469F /* AppDelegate.m */; };
 		74100FDB1FF08B7C0075469F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74100FDA1FF08B7C0075469F /* ViewController.m */; };
 		74100FDE1FF08B7C0075469F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74100FDC1FF08B7C0075469F /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F0113B085B6FF502A83913E /* Pods-zichen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zichen.release.xcconfig"; path = "Pods/Target Support Files/Pods-zichen/Pods-zichen.release.xcconfig"; sourceTree = "<group>"; };
+		5BC8020DAA7C269232529561 /* libPods-zichen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zichen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74100FD31FF08B7C0075469F /* zichen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zichen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74100FD61FF08B7C0075469F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74100FD71FF08B7C0075469F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		74100FF61FF08B7D0075469F /* zichenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zichenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74100FFA1FF08B7D0075469F /* zichenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zichenUITests.m; sourceTree = "<group>"; };
 		74100FFC1FF08B7D0075469F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E56737014E645073F0DA1799 /* Pods-zichen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zichen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zichen/Pods-zichen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44AB6E6D847E5C9D3778885E /* libPods-zichen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4141B8FB99F893CE45E11BA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8020DAA7C269232529561 /* libPods-zichen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74100FCA1FF08B7C0075469F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,8 @@
 				74100FEE1FF08B7D0075469F /* zichenTests */,
 				74100FF91FF08B7D0075469F /* zichenUITests */,
 				74100FD41FF08B7C0075469F /* Products */,
+				A2A8BBAF01AEBDB4005F26EA /* Pods */,
+				4141B8FB99F893CE45E11BA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +147,15 @@
 			path = zichenUITests;
 			sourceTree = "<group>";
 		};
+		A2A8BBAF01AEBDB4005F26EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E56737014E645073F0DA1799 /* Pods-zichen.debug.xcconfig */,
+				4F0113B085B6FF502A83913E /* Pods-zichen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74100FFF1FF08B7D0075469F /* Build configuration list for PBXNativeTarget "zichen" */;
 			buildPhases = (
+				91726A4B89A0989954F457B3 /* [CP] Check Pods Manifest.lock */,
 				74100FCF1FF08B7C0075469F /* Sources */,
 				74100FD01FF08B7C0075469F /* Frameworks */,
 				74100FD11FF08B7C0075469F /* Resources */,
+				B364BA953464ED588D602E2F /* [CP] Embed Pods Frameworks */,
+				8244D6B5F97F38872D5B8CA0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +286,61 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8244D6B5F97F38872D5B8CA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zichen/Pods-zichen-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zichen/Pods-zichen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91726A4B89A0989954F457B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zichen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B364BA953464ED588D602E2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zichen/Pods-zichen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74100FCF1FF08B7C0075469F /* Sources */ = {
@@ -428,6 +510,7 @@
 		};
 		741010001FF08B7D0075469F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56737014E645073F0DA1799 /* Pods-zichen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +525,7 @@
 		};
 		741010011FF08B7D0075469F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0113B085B6FF502A83913E /* Pods-zichen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
