@@ -156,6 +156,9 @@
 		741012FB1FF0C9010075469F /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 741012E31FF0C9010075469F /* Contents.json */; };
 		741012FC1FF0C9010075469F /* home_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 741012E51FF0C9010075469F /* home_highlight@2x.png */; };
 		741012FD1FF0C9010075469F /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 741012E61FF0C9010075469F /* Contents.json */; };
+		741013031FF0E2F80075469F /* Guide3.png in Resources */ = {isa = PBXBuildFile; fileRef = 741013001FF0E2F80075469F /* Guide3.png */; };
+		741013041FF0E2F80075469F /* Guide1.png in Resources */ = {isa = PBXBuildFile; fileRef = 741013011FF0E2F80075469F /* Guide1.png */; };
+		741013051FF0E2F80075469F /* Guide2.png in Resources */ = {isa = PBXBuildFile; fileRef = 741013021FF0E2F80075469F /* Guide2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -509,6 +512,9 @@
 		741012E31FF0C9010075469F /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		741012E51FF0C9010075469F /* home_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_highlight@2x.png"; sourceTree = "<group>"; };
 		741012E61FF0C9010075469F /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		741013001FF0E2F80075469F /* Guide3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide3.png; sourceTree = "<group>"; };
+		741013011FF0E2F80075469F /* Guide1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide1.png; sourceTree = "<group>"; };
+		741013021FF0E2F80075469F /* Guide2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide2.png; sourceTree = "<group>"; };
 		E56737014E645073F0DA1799 /* Pods-zichen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zichen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zichen/Pods-zichen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1361,6 +1367,7 @@
 		741012C31FF0C6440075469F /* Resource(资源) */ = {
 			isa = PBXGroup;
 			children = (
+				741012FF1FF0E2D90075469F /* Guide */,
 				741012C41FF0C64D0075469F /* TabBar */,
 			);
 			path = "Resource(资源)";
@@ -1491,6 +1498,16 @@
 				7410100E1FF091980075469F /* LBConst.m */,
 			);
 			path = Api;
+			sourceTree = "<group>";
+		};
+		741012FF1FF0E2D90075469F /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				741013011FF0E2F80075469F /* Guide1.png */,
+				741013021FF0E2F80075469F /* Guide2.png */,
+				741013001FF0E2F80075469F /* Guide3.png */,
+			);
+			path = Guide;
 			sourceTree = "<group>";
 		};
 		A2A8BBAF01AEBDB4005F26EA /* Pods */ = {
@@ -1627,6 +1644,8 @@
 				741012BE1FF0AF420075469F /* Account.storyboard in Resources */,
 				741012C01FF0AF530075469F /* Shop.storyboard in Resources */,
 				741012811FF0A7580075469F /* Home.storyboard in Resources */,
+				741013031FF0E2F80075469F /* Guide3.png in Resources */,
+				741013041FF0E2F80075469F /* Guide1.png in Resources */,
 				7410124C1FF099410075469F /* MBProgressHUD.bundle in Resources */,
 				741012131FF094800075469F /* LICENSE in Resources */,
 				741012F11FF0C9010075469F /* mycity_highlight@2x.png in Resources */,
@@ -1646,6 +1665,7 @@
 				741012EF1FF0C9010075469F /* Contents.json in Resources */,
 				741012F41FF0C9010075469F /* mycity_normal@2x.png in Resources */,
 				741012EA1FF0C9010075469F /* message_highlight@2x.png in Resources */,
+				741013051FF0E2F80075469F /* Guide2.png in Resources */,
 				741010D61FF091E50075469F /* read_me.txt in Resources */,
 				74100FDE1FF08B7C0075469F /* Main.storyboard in Resources */,
 				741012EC1FF0C9010075469F /* post_normal@2x.png in Resources */,
